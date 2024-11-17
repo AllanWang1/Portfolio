@@ -1,0 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  background: #fff7e6;
+  color: #5a3e36;
+  font-family: 'outfit';
+}
