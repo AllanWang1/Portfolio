@@ -10,8 +10,10 @@ const Hero = () => {
       </div>
       
       <h1><span>I'm Allan Wang, </span>Third Year Computer Science Student At UBC</h1>
-      <p>I'm a third-year Computer Science and Statistics student at UBC, passionate about 
-        developing 
+      <p>I am a third-year Computer Science and Statistics student 
+        at UBC with a strong passion for creating practical, 
+        impactful applications and tackling challenges through 
+        data-driven solutions.
       </p>
       <div className="hero-action">
         <div className="hero-connect">Connect with me</div>
