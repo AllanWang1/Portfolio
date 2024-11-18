@@ -5,7 +5,7 @@ import profile_img from '../../assets/profile_img.PNG'
 const Hero = () => {
   return (
     <div className='hero'>
-      <div class="circle">
+      <div className="circle">
         <img className='profile' src={ profile_img } alt="A picture of Allan Wang" />
       </div>
       

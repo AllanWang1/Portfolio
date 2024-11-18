@@ -1,4 +1,4 @@
-let Events = [
+ export const timelineElements = [
     {
         id: 1,
         title: "Course Developer & Classroom Instructor",
@@ -15,7 +15,7 @@ let Events = [
         description: "Together with a partner, we used machine learning algorithms to predict customer churn. We further provided business insights on how to reduce customer churn.",
         buttonText: "View Jupyter Notebook",
         date: "Mar 2024",
-        icon: "work",
+        icon: "extracurricular",
     },
     {
         id: 3,
@@ -24,7 +24,7 @@ let Events = [
         description: "Analyzed a clothing store sales dataset as a team of 4. EDA was completed thoroughly, and developed a business plan for the clothing store to maximize their profit based on the data, identified the associated risks, and proposed mitigation strategies.",
         buttonText: "",
         date: "Sep 2023 - Oct 2023",
-        icon: "work",
+        icon: "extracurricular",
     },
     {
         id: 4,
@@ -39,7 +39,7 @@ let Events = [
         id: 5,
         title: "University of British Columbia",
         location: "Vancouver, BC, Candada",
-        description: "3rd Year Bachelor of Science, Combined Major in Computer Science and Statistics",
+        description: "3rd Year Bachelor of Science, Combined Major in Computer Science and Statistics.",
         buttonText: "View Transcript",
         date: "Sep 2022 - May 2027 (Expected)",
         icon: "education",
