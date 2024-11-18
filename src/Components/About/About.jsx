@@ -37,6 +37,7 @@ const About = () => {
             </div>
         </div>
       </div>
+      
       <div className="about-achievements">
             <div className="about-achievement">
                 <h3>2 Times Dean's Honour List</h3>
