@@ -1,0 +1,53 @@
+.projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    margin: 80px 170px;
+}
+
+.projects-title h2 {
+    font-size: 60px;
+}
+
+.project-container {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    margin-bottom: 80px;
+}
+
+.project {
+    align-items: center;
+    display: flex;
+    gap: 80px;
+    box-shadow: 0 0.25em 0.5em 0 rgba(0, 0 ,0 ,0.25),
+    0 0.4em 1.25em 0 rgba(0, 0, 0, 0.15);
+    padding: 2em 3em;
+}
+
+
+.project-left img {
+    width: 400px;
+    height: 275px;
+}
+.project-right {
+    display: flex;
+    flex-direction: column;
+}
+.project-right h3 {
+    font-size: 30px;
+}
+#description {
+    margin: 1.5em 0 2em 0;
+}
+#link {
+    color: blue
+}
+
+@media only screen and (max-width: 1100px) {
+    .project-left {
+        display: none;
+    }
+}
