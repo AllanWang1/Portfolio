@@ -4,7 +4,7 @@ import profile_img from '../../assets/profile_img.PNG'
 
 const Hero = () => {
   return (
-    <div className='hero'>
+    <div id='home' className='hero'>
       <div className="circle">
         <img className='profile' src={ profile_img } alt="A picture of Allan Wang" />
       </div>
@@ -16,7 +16,11 @@ const Hero = () => {
         data-driven solutions.
       </p>
       <div className="hero-action">
-        <div className="hero-connect">Connect with me</div>
+        <div className="hero-connect">
+        <a href="https://www.linkedin.com/in/ziwei-wang-b489a3222/" target="_blank">
+          Connect with me
+        </a>
+        </div>
         <div className="hero-resume">My resume</div>
       </div>
     </div>

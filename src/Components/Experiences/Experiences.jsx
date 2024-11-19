@@ -19,7 +19,7 @@ const Experiences = () => {
   let extracurricularIconStyles = { background:"#118AB2" };
   console.log(timelineElements);
   return (
-    <div className="experiences">
+    <div id='experiences' className="experiences">
       <h2 className="experiences-title">Experiences</h2>
       <VerticalTimeline>
         {

@@ -76,3 +76,8 @@
 .hero-connect:hover {
     transform: scale(1.05);
 }
+
+.hero-connect a {
+    text-decoration: none;
+    color: #2d3748;
+}

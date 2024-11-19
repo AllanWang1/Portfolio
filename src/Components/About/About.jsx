@@ -3,7 +3,7 @@ import './About.css'
 import profile_img from '../../assets/profile.svg'
 const About = () => {
   return (
-    <div className='about'>
+    <div id='about' className='about'>
       <h2>About Me</h2>
       <div className="about-sections">
         <div className="about-left">

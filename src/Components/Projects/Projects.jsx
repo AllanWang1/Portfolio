@@ -4,7 +4,7 @@ import { projects_data } from './projects_data'
 
 const Projects = () => {
   return (
-    <div className="projects">
+    <div id='projects' className="projects">
       <div className="projects-title">
         <h2>Projects</h2>
       </div>
