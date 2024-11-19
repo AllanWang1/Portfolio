@@ -61,7 +61,8 @@ const Experiences = () => {
                                 ${isWorkIcon ? "workButton" :
                                   (isEducationIcon ? "educationButton" : "extracurricularButton")
                                 }`}
-                             href="/"
+                             href={ element.link }
+                             target="_blank"
                             >
                                 {element.buttonText}
                             </a>

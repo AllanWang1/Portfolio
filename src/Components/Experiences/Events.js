@@ -7,15 +7,17 @@
         buttonText: "",
         date: "Aug 2024 - Nov 2024",
         icon: "work",
+        link: "/",
     },
     {
         id: 2,
         title: "SAP Customer Churn Datathon",
         location: "Vancouver, BC, Candada",
         description: "Together with a partner, we used machine learning algorithms to predict customer churn. We further provided business insights on how to reduce customer churn.",
-        buttonText: "View Jupyter Notebook",
+        buttonText: "View Jupyter Notebook as HTML",
         date: "Mar 2024",
         icon: "extracurricular",
+        link: "/Portfolio-Vite/SAPDatathon.html",
     },
     {
         id: 3,
@@ -25,6 +27,7 @@
         buttonText: "",
         date: "Sep 2023 - Oct 2023",
         icon: "extracurricular",
+        link: "/",
     },
     {
         id: 4,
@@ -34,6 +37,7 @@
         buttonText: "View Photos",
         date: "Sep 2023 - Present",
         icon: "extracurricular",
+        link: "/",
     },
     {
         id: 5,
@@ -43,14 +47,16 @@
         buttonText: "View Transcript",
         date: "Sep 2022 - May 2027 (Expected)",
         icon: "education",
+        link: "/Portfolio-Vite/studentTranscript.pdf",
     },
     {
         id: 6,
         title: "Tutor",
         location: "Surrey, BC, Candada",
         description: "Taught a wide variety of subjects. The subjects include but is not limited to: beginners English, high school computer science, math, and physics.",
-        buttonText: "View details",
+        buttonText: "",
         date: "Jul 2021 - Present",
         icon: "work",
+        link: "/",
     },
 ]
