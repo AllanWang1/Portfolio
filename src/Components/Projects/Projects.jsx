@@ -10,6 +10,10 @@ const Projects = () => {
       </div>
       <div className="project-container">
         {projects_data.map((project, index)=>{
+            let showButton = 
+                    project.buttonText !== "" &&
+                    project.buttonText !== null &&
+                    project.buttonText !== undefined;
             return (
                 <div key = {index} className="project"> 
                     <div className="project-left">
@@ -19,7 +23,19 @@ const Projects = () => {
                         <h3>{ project.title }</h3>
                         <h5>{ project.skills}</h5>
                         <p id="description">{ project.description }</p>
-                        <p id="link">View Details</p>
+                        <div className="project-right-bottom">
+                            {showButton && (
+                            <div className="project-link">
+                                <a 
+                                    href={ project.link }
+                                    target="_blank"
+                                >
+                                    {project.buttonText}
+                                </a>
+                            </div>
+                            )}
+                            <div className="project-right-bottom-right"></div>
+                        </div>
                     </div>
                 </div>
             )
