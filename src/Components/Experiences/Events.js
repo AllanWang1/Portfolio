@@ -37,7 +37,7 @@
         buttonText: "View Photos",
         date: "Sep 2023 - Present",
         icon: "extracurricular",
-        link: "/",
+        link: "/Portfolio-Vite/CubingClub.pdf",
     },
     {
         id: 5,
