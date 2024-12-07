@@ -1,68 +1,68 @@
 .experiences {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
 }
 
-
 .experiences-title {
-    font-size: 60px;
+  font-size: 60px;
 }
 
 h3 {
-    padding-top: 0.25em;
+  padding-top: 0.25em;
 }
 
 .vertical-timeline-element-content {
-    box-shadow: 0 0.25em 0.5em 0 rgba(0, 0 ,0 ,0.25),
+  box-shadow:
+    0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25),
     0 0.4em 1.25em 0 rgba(0, 0, 0, 0.15) !important;
-    padding: 2em 3em !important;
+  padding: 2em 3em !important;
 }
 
 #description {
-    margin: 1.5em 0 2em 0;
+  margin: 1.5em 0 2em 0;
 }
 
 .button {
-    text-decoration: none;
-    padding: 0.5em 1em;
-    border-radius: 5px;
-    color: white;
+  text-decoration: none;
+  padding: 0.5em 1em;
+  border-radius: 5px;
+  color: white;
 }
 
 .workButton {
-    background-color: #06D6A0;
+  background-color: #06d6a0;
 }
 
 .workButton:hover {
-    background-color: #0AC593;
+  background-color: #0ac593;
 }
 
 .educationButton {
-    background-color: #F9C74F;
+  background-color: #f9c74f;
 }
 
 .educationButton:hover {
-    background-color: #F3BC3C;
+  background-color: #f3bc3c;
 }
 
 .extracurricularButton {
-    background-color: #118AB2;
+  background-color: #118ab2;
 }
 
 .extracurricularButton:hover {
-    background-color: #097397;
+  background-color: #097397;
 }
 
 @media only screen and (max-width: 1400px) {
-    .experiences h2 {
-        font-size: 50px;
-    }
-    .vertical-timeline-element-date {
-        display: block !important;
-        float: none !important;
-        margin-top: 1.5em;
-    }
+  .experiences h2 {
+    font-size: 50px;
+  }
+  .vertical-timeline-element-date {
+    display: block !important;
+    float: none !important;
+    margin-top: 1.5em;
+  }
 }

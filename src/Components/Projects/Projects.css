@@ -1,71 +1,71 @@
 .projects {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 80px;
-    margin: 80px 170px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+  margin: 80px 170px;
 }
 
 .projects-title h2 {
-    font-size: 60px;
+  font-size: 60px;
 }
 
 .project-container {
-    display: flex;
-    flex-direction: column;
-    gap: 80px;
-    margin-bottom: 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  margin-bottom: 80px;
 }
 
 .project {
-    align-items: center;
-    display: flex;
-    gap: 80px;
-    box-shadow: 0 0.25em 0.5em 0 rgba(0, 0 ,0 ,0.25),
+  align-items: center;
+  display: flex;
+  gap: 80px;
+  box-shadow:
+    0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25),
     0 0.4em 1.25em 0 rgba(0, 0, 0, 0.15);
-    padding: 2em 3em;
+  padding: 2em 3em;
 }
-
 
 .project-left img {
-    width: 400px;
-    height: 275px;
+  width: 400px;
+  height: 275px;
 }
 .project-right {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 .project-right h3 {
-    font-size: 30px;
+  font-size: 30px;
 }
 #description {
-    margin: 1.5em 0 2em 0;
+  margin: 1.5em 0 2em 0;
 }
 
 .project-right-bottom {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 .project-link {
-    padding: 20px 30px;
-    border-radius: 30px;
-    background: linear-gradient(135deg, #319795, #4FD1C5);
-    cursor: pointer;
-    transition: 0.3s;
+  padding: 20px 30px;
+  border-radius: 30px;
+  background: linear-gradient(135deg, #319795, #4fd1c5);
+  cursor: pointer;
+  transition: 0.2s;
 }
 .project-link a {
-    color: white;
-    text-decoration: none;
+  color: white;
+  text-decoration: none;
 }
 .project-link:hover {
-    transform: scale(1.05);
+  transform: scale(1.05);
 }
 @media only screen and (max-width: 1100px) {
-    .projects h2 {
-        font-size: 50px;
-    }
-    .project-left {
-        display: none;
-    }
+  .projects h2 {
+    font-size: 50px;
+  }
+  .project-left {
+    display: none;
+  }
 }
