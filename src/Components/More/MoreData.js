@@ -1,20 +1,24 @@
-import cubingImg from "../../assets/WCA_profile.PNG";
+import cubingImg from "../../assets/WCA_profile.png";
+import badmintonImg from "../../assets/badminton.png";
+import guitarImg from "../../assets/guitar.png";
 
 export const moreElements = [
   {
-    title: "Cubing Competitions",
+    title: "Speedcubing",
     coverImg: cubingImg,
     description: "Attended more than 10 official competitions over the past 2 years",
-
+    link: "",
   },
   {
     title: "Guitar",
-    coverImg: null,
-    description: null,
+    coverImg: guitarImg,
+    description: "",
+    link: "",
   },
   {
     title: "Badminton",
-    coverImg: null,
-    description: null,
+    coverImg: badmintonImg,
+    description: "",
+    link: "",
   },
 ];

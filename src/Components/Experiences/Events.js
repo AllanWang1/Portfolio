@@ -1,17 +1,28 @@
 export const timelineElements = [
   {
     id: 1,
-    title: "Course Developer & Classroom Instructor",
-    location: "South Surrey, BC, Candada",
+    title: "Software Engineer",
+    location: "LED Smart Inc. | Surrey, BC, Canada",
     description:
-      "Assisted hundreds of students with LeetCode-style problems in Python. Reviewed work of students and tested them for bugs, and provided insights for optimization and improvements.",
+      "Focused on firmware development for embedded systems.",
+    buttonText: "",
+    date: "Dec 2024 - Aug 2025 (expected)",
+    icon: "work",
+    link: "/",
+  },
+  {
+    id: 2,
+    title: "Course Developer & Classroom Instructor",
+    location: "Robokids | South Surrey, BC, Candada",
+    description:
+      "Assisted students with LeetCode-style problems in Python. Reviewed work of students and tested them for bugs, and provided insights for optimization and improvements.",
     buttonText: "",
     date: "Aug 2024 - Nov 2024",
     icon: "work",
     link: "/",
   },
   {
-    id: 2,
+    id: 3,
     title: "SAP Customer Churn Datathon",
     location: "Vancouver, BC, Candada",
     description:
@@ -22,7 +33,7 @@ export const timelineElements = [
     link: "/Portfolio-Vite/SAPDatathon.html",
   },
   {
-    id: 3,
+    id: 4,
     title: "BYTE Clothing Store Datathon",
     location: "Vancouver, BC, Candada",
     description:
@@ -33,7 +44,7 @@ export const timelineElements = [
     link: "/",
   },
   {
-    id: 4,
+    id: 5,
     title: "Executive of UBC Cubing Club",
     location: "Vancouver, BC, Candada",
     description:
@@ -44,7 +55,7 @@ export const timelineElements = [
     link: "/Portfolio-Vite/CubingClub.pdf",
   },
   {
-    id: 5,
+    id: 6,
     title: "University of British Columbia",
     location: "Vancouver, BC, Candada",
     description:
@@ -55,7 +66,7 @@ export const timelineElements = [
     link: "/Portfolio-Vite/studentTranscript.pdf",
   },
   {
-    id: 6,
+    id: 7,
     title: "Tutor",
     location: "Surrey, BC, Candada",
     description:

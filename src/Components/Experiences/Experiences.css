@@ -32,6 +32,18 @@ h3 {
   color: white;
 }
 
+.timeline-icon {
+  width: 35px;
+  height: 35px;
+  object-fit: contain;
+  
+}
+
+.vertical-timeline-element-icon {
+  display: flex;
+  align-items: center; 
+  justify-content: center; 
+
 .workButton {
   background-color: #06d6a0;
 }

@@ -1,9 +1,8 @@
-import React from 'react'
-import "./More.css"
+import React from "react";
+import "./More.css";
 
-import { moreElements } from "./MoreData"
+import { moreElements } from "./MoreData";
 const More = () => {
-  
   return (
     <div id="more" className="more">
       <div className="more-title">
@@ -13,14 +12,17 @@ const More = () => {
         {moreElements.map((activity) => {
           return (
             <div className="activity">
-                <h3>{activity.title}</h3>
-                <p>{activity.description}</p>
+              <h3>{activity.title}</h3>
+              <p>{activity.description}</p>
+              <div className="activity-img-containter">
+                <img src={activity.coverImg} alt="" />
+              </div>
             </div>
-          )
+          );
         })}
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default More
+export default More;

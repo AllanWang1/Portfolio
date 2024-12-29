@@ -43,11 +43,11 @@ const Experiences = () => {
               }
               icon={
                 isWorkIcon ? (
-                  <img src={WorkIcon} alt="Work" />
+                  <img className="timeline-icon" src={WorkIcon} alt="Work" />
                 ) : isEducationIcon ? (
-                  <img src={EducationIcon} alt="Education" />
+                  <img className="timeline-icon" src={EducationIcon} alt="Education" />
                 ) : (
-                  <img src={ExtracurricularIcon} alt="Extracurricular" />
+                  <img className="timeline-icon" src={ExtracurricularIcon} alt="Extracurricular" />
                 )
               }
             >
