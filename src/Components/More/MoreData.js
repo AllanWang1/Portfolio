@@ -1,6 +1,6 @@
-import cubingImg from "../../assets/WCA_profile.png";
-import badmintonImg from "../../assets/badminton.png";
-import guitarImg from "../../assets/guitar.png";
+import cubingImg from "../../assets/WCA_profile.PNG";
+import badmintonImg from "../../assets/badminton.PNG";
+import guitarImg from "../../assets/guitar.PNG";
 
 export const moreElements = [
   {
