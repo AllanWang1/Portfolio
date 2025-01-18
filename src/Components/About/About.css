@@ -101,7 +101,7 @@
   height: auto;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1300px) {
   .about {
     gap: 80px;
     margin: 50px 70px;
