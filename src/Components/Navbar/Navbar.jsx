@@ -61,14 +61,6 @@ const Navbar = () => {
           {menu === "contact" ? <img src={underline} alt="" /> : <></>}
         </li>
       </ul>
-      <div className="nav-connect">
-        <a
-          href="https://www.linkedin.com/in/ziwei-wang-b489a3222/"
-          target="_blank"
-        >
-          Connect with me
-        </a>
-      </div>
     </div>
   );
 };

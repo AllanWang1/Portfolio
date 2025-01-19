@@ -23,7 +23,7 @@ const Hero = () => {
       <div className="hero-action">
         <div className="hero-connect">
           <a
-            href="https://www.linkedin.com/in/ziwei-wang-b489a3222/"
+            href="https://www.linkedin.com/in/allan-wang-b489a3222/"
             target="_blank"
           >
             Connect with me

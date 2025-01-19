@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./More.css";
 
 import { moreElements } from "./MoreData";
@@ -10,13 +11,20 @@ const More = () => {
       </div>
       <div className="more-container">
         {moreElements.map((activity) => {
+          let showLink = activity.link !== "";
           return (
             <div className="activity">
               <h3>{activity.title}</h3>
-              <p>{activity.description}</p>
-              <div className="activity-img-containter">
+              <div className="activity-img-container">
                 <img src={activity.coverImg} alt="" />
               </div>
+              {showLink ? (
+                <div className="activity-link">
+                  <Link to={activity.link}>{activity.linkName}</Link>
+                </div>
+              ) : (
+                <div></div>
+              )}
             </div>
           );
         })}
