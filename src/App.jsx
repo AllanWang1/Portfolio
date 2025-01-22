@@ -28,7 +28,7 @@ const App = () => {
             </div>
           }
         ></Route>
-        <Route path="/cubing" element={<Cubing />}></Route>
+        <Route path="/Portfolio-Vite/cubing" element={<Cubing />}></Route>
       </Routes>
     </Router>
   );

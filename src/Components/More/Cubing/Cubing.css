@@ -1,0 +1,25 @@
+.cubing {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+    margin: 80px 160px;
+}
+
+.cubing-wca-link {
+    display: inline-block;
+    background-color: #064e3b;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.cubing-wca-link a {
+    text-decoration: none;
+    color: white;
+}
+
+.cubing-wca-link:hover {
+    transform: scale(1.05);
+}

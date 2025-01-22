@@ -55,7 +55,7 @@
 .hero-connect {
   padding: 25px 45px;
   border-radius: 50px;
-  background: linear-gradient(135deg, #d1fae5, #f9fafb);
+  background: linear-gradient(135deg, #064e3b, #6b705c);
   cursor: pointer;
   transition: 0.5s;
 }
@@ -79,7 +79,7 @@
 
 .hero-connect a {
   text-decoration: none;
-  color: #2d3748;
+  color: #ffffff;
 }
 
 .hero-resume a {
