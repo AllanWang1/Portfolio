@@ -1,7 +1,37 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import "./Hero.css";
 import profile_img from "../../assets/profile_img.PNG";
 const Hero = () => {
+  const lines = [
+    "I am a third-year Computer Science and Statistics student at UBC",
+    "with strong passion for creating practical, impactful programs",
+    "and tackling challenges through data-driven solutions.",
+  ];
+
+  const [displayedText, setDisplayedText] = useState(["", "", ""]); // Stores typed characters
+  const [currentLine, setCurrentLine] = useState(0);
+  const [currentChar, setCurrentChar] = useState(0);
+
+  useEffect(() => {
+    if (currentLine < lines.length) {
+      if (currentChar <= lines[currentLine].length) {
+        const timeout = setTimeout(() => {
+          setDisplayedText((prev) => {
+            const newText = [...prev];
+            newText[currentLine] = lines[currentLine].slice(0, currentChar + 1); // Take the first (currentChar+1) characters
+            return newText;
+          });
+          setCurrentChar((prev) => prev + 1);
+        }, 32);
+
+        return () => clearTimeout(timeout); // Cleanup timeout
+      } else {
+        setCurrentLine((prev) => prev + 1);
+        setCurrentChar(0);
+      }
+    }
+  }, [currentChar, currentLine, lines]);
+
   return (
     <div id="home" className="hero">
       <div className="profile-picture-container">
@@ -15,10 +45,13 @@ const Hero = () => {
       <h1>
         <span>I'm Allan Wang, </span>Third Year Computer Science Student At UBC
       </h1>
-      <p>
-        I am a third-year Computer Science and Statistics student at UBC with a
-        strong passion for creating practical, impactful applications and
-        tackling challenges through data-driven solutions.
+      <p className="animated-text">
+        {displayedText.map((line, index) => (
+          <span key={index}>
+            {line}
+            <br />
+          </span>
+        ))}
       </p>
       <div className="hero-action">
         <div className="hero-connect">
