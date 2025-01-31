@@ -23,7 +23,7 @@ export const projects_data = [
     description:
       "As a team of 4, we analyzed an employee attrition dataset. We picked explanatory variables from forward selection, and interpreted the association between them and employee attrition.",
     img_: employee_attrition_img,
-    link: "/Portfolio-Vite/employeeAttrition.html",
+    link: "/Portfolio/employeeAttrition.html",
     buttonText: "View Report",
   },
   {

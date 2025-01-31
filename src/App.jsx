@@ -15,9 +15,9 @@ const App = () => {
     <Router>
       <Routes>
         <Route
-          path="/Portfolio-Vite/"
+          path="/Portfolio/"
           element={
-            <div>
+            <div className="components">
               <Navbar />
               <Hero />
               <About />
@@ -28,7 +28,7 @@ const App = () => {
             </div>
           }
         ></Route>
-        <Route path="/Portfolio-Vite/cubing" element={<Cubing />}></Route>
+        <Route path="/Portfolio/cubing" element={<Cubing />}></Route>
       </Routes>
     </Router>
   );

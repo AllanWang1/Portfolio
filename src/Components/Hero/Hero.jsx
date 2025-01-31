@@ -63,7 +63,7 @@ const Hero = () => {
           </a>
         </div>
         <div className="hero-resume">
-          <a href="/Portfolio-Vite/CSResume.pdf" target="_blank">
+          <a href="/Portfolio/CSResume.pdf" target="_blank">
             My Resume
           </a>
         </div>

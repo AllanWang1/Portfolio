@@ -30,7 +30,7 @@ export const timelineElements = [
     buttonText: "View Jupyter Notebook as HTML",
     date: "Mar 2024",
     icon: "extracurricular",
-    link: "/Portfolio-Vite/SAPDatathon.html",
+    link: "/Portfolio/SAPDatathon.html",
   },
   {
     id: 4,
@@ -52,7 +52,7 @@ export const timelineElements = [
     buttonText: "View Photos",
     date: "Sep 2023 - Present",
     icon: "extracurricular",
-    link: "/Portfolio-Vite/CubingClub.pdf",
+    link: "/Portfolio/CubingClub.pdf",
   },
   {
     id: 6,
@@ -63,7 +63,7 @@ export const timelineElements = [
     buttonText: "View Transcript",
     date: "Sep 2022 - May 2027 (Expected)",
     icon: "education",
-    link: "/Portfolio-Vite/studentTranscript.pdf",
+    link: "/Portfolio/studentTranscript.pdf",
   },
   {
     id: 7,

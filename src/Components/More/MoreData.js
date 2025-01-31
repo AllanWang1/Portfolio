@@ -6,7 +6,7 @@ export const moreElements = [
   {
     title: "Speedcubing",
     coverImg: cubingImg,
-    link: "/Portfolio-Vite/cubing",
+    link: "/Portfolio/cubing",
     linkName: "Details",
   },
   {

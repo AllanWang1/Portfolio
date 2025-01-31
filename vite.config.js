@@ -9,5 +9,5 @@ export default defineConfig({
     svgr(),
   ],
   assetsInclude: ['**/*.PNG'],
-  base: "/Portfolio-Vite/",
+  base: "/Portfolio/",
 })
