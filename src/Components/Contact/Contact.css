@@ -79,7 +79,8 @@
 .contact-submit {
   border: none;
   border-radius: 50px;
-  background: linear-gradient(135deg, #d1fae5, #f9fafb);
+  background: linear-gradient(135deg, #064e3b, #6b705c);
+  color: white;
   font-size: 22px;
   padding: 20px 60px;
   margin-bottom: 50px;
