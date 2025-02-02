@@ -20,6 +20,7 @@
 }
 
 .project {
+  background-color: white;
   align-items: center;
   display: flex;
   gap: 80px;

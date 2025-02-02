@@ -9,10 +9,12 @@ import Projects from "./Components/Projects/Projects";
 import Contact from "./Components/Contact/Contact";
 import More from "./Components/More/More";
 import Cubing from "./Components/More/Cubing/Cubing";
+import ParticlesBackground from "./Components/Particles/ParticlesBackground";
 
 const App = () => {
   return (
     <Router>
+      <ParticlesBackground />
       <Routes>
         <Route
           path="/Portfolio/"

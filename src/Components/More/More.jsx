@@ -13,7 +13,7 @@ const More = () => {
         {moreElements.map((activity) => {
           let showLink = activity.link !== "";
           return (
-            <div className="activity">
+            <div key={activity.id} className="activity">
               <h3>{activity.title}</h3>
               <div className="activity-img-container">
                 <img src={activity.coverImg} alt="" />

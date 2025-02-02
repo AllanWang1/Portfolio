@@ -17,7 +17,7 @@ const Experiences = () => {
   let workIconStyles = { background: "#06D6A0" };
   let educationIconStyles = { background: "#f9c74f" };
   let extracurricularIconStyles = { background: "#118AB2" };
-  console.log(timelineElements);
+  // console.log(timelineElements);
   return (
     <div id="experiences" className="experiences">
       <h2 className="experiences-title">Experiences</h2>
@@ -38,16 +38,24 @@ const Experiences = () => {
                 isEducationIcon
                   ? educationIconStyles
                   : isWorkIcon
-                    ? workIconStyles
-                    : extracurricularIconStyles
+                  ? workIconStyles
+                  : extracurricularIconStyles
               }
               icon={
                 isWorkIcon ? (
                   <img className="timeline-icon" src={WorkIcon} alt="Work" />
                 ) : isEducationIcon ? (
-                  <img className="timeline-icon" src={EducationIcon} alt="Education" />
+                  <img
+                    className="timeline-icon"
+                    src={EducationIcon}
+                    alt="Education"
+                  />
                 ) : (
-                  <img className="timeline-icon" src={ExtracurricularIcon} alt="Extracurricular" />
+                  <img
+                    className="timeline-icon"
+                    src={ExtracurricularIcon}
+                    alt="Extracurricular"
+                  />
                 )
               }
             >
@@ -65,8 +73,8 @@ const Experiences = () => {
                                   isWorkIcon
                                     ? "workButton"
                                     : isEducationIcon
-                                      ? "educationButton"
-                                      : "extracurricularButton"
+                                    ? "educationButton"
+                                    : "extracurricularButton"
                                 }`}
                   href={element.link}
                   target="_blank"
