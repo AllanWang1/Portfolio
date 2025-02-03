@@ -3,6 +3,8 @@ import cube_timer_img from "../../assets/cube_timer.PNG";
 import employee_attrition_img from "../../assets/employee_attrition.PNG";
 import platformer_img from "../../assets/2d_platformer.PNG";
 import treasure_hunt_img from "../../assets/treasure_hunt.png";
+import sap_img from "../../assets/SAP_Datathon.png";
+import byte_img from "../../assets/Byte_Datathon.png";
 
 export const projects_data = [
   {
@@ -38,6 +40,24 @@ export const projects_data = [
   },
   {
     id: 4,
+    title: "SAP Customer Churn Datathon",
+    skills: "R, Prediction, KNN, Random Forest, Logistic Regression, Case Study",
+    description: "Together with a partner, we used machine learning algorithms to predict customer churn. We further provided business insights on how to reduce customer churn.",
+    img_: sap_img,
+    link: "/Portfolio/SAPDatathon.html",
+    buttonText: "View Jupyter Notebook",
+  },
+  {
+    id: 5,
+    title: "BYTE Clothing Store Datathon",
+    skills: "Python (Pandas, Matplotlib), Excel, EDA, Data Visualization, Business Strategy, Case Study",
+    description: "Analyzed a clothing store sales dataset as a team of 4. EDA was completed thoroughly, and developed a business plan for the clothing store to maximize their profit based on the data, identified the associated risks, and proposed mitigation strategies.",
+    img_: byte_img,
+    link: "/",
+    buttonText: "",
+  },
+  {
+    id: 6,
     title: "BFS Treasure Hunt",
     skills: "C++, Data Structures (Stack, Queue, Deque, Graph), Algorithms",
     description:
@@ -47,7 +67,7 @@ export const projects_data = [
     buttonText: "",
   },
   {
-    id: 5,
+    id: 7,
     title: "Rubik's Cube Timer",
     skills:
       "Java, JUnit Testing, Java Swing, GUI Development, Git, Documentation",

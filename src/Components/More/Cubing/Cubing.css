@@ -1,9 +1,10 @@
 .cubing {
     display: flex;
+    padding-top: 60px;
     flex-direction: column;
     align-items: center;
     gap: 80px;
-    margin: 80px 160px;
+    margin-bottom: 60px;
 }
 
 .cubing-wca-link {
@@ -22,4 +23,21 @@
 
 .cubing-wca-link:hover {
     transform: scale(1.05);
+}
+
+.cubing-intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.podium {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.podium img {
+    width: 400px;
+
 }

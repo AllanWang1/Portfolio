@@ -1,10 +1,10 @@
 export const timelineElements = [
   {
     id: 1,
-    title: "Software Engineer",
+    title: "Software Engineer (Co-op)",
     location: "LED Smart Inc. | Surrey, BC, Canada",
     description:
-      "Focused on firmware development for embedded systems.",
+      "Developed firmware for LED Smart modules, enabling Thread networking using the OpenThread API to support UDP communication to handle protocol messages for controlling LED states.",
     buttonText: "",
     date: "Dec 2024 - Aug 2025 (expected)",
     icon: "work",
@@ -12,7 +12,18 @@ export const timelineElements = [
   },
   {
     id: 2,
-    title: "Course Developer & Classroom Instructor",
+    title: "Web Development Manager of UBC Cubing Club",
+    location: "UBC Cubing Club | Vancouver, BC, Canada",
+    description:
+      "Currently developing a website to manage the UBC Cubing Club. The website will be used to host internal tournaments and store member statistics, which enables a new system for the club.",
+    buttonText: "",
+    date: "Jan 2025 - Present",
+    icon: "extracurricular",
+    link: "/",
+  },
+  {
+    id: 3,
+    title: "Course Developer & Classroom Instructor (Co-op)",
     location: "Robokids | South Surrey, BC, Candada",
     description:
       "Assisted students with LeetCode-style problems in Python. Reviewed work of students and tested them for bugs, and provided insights for optimization and improvements.",
@@ -22,31 +33,9 @@ export const timelineElements = [
     link: "/",
   },
   {
-    id: 3,
-    title: "SAP Customer Churn Datathon",
-    location: "Vancouver, BC, Candada",
-    description:
-      "Together with a partner, we used machine learning algorithms to predict customer churn. We further provided business insights on how to reduce customer churn.",
-    buttonText: "View Jupyter Notebook as HTML",
-    date: "Mar 2024",
-    icon: "extracurricular",
-    link: "/Portfolio/SAPDatathon.html",
-  },
-  {
     id: 4,
-    title: "BYTE Clothing Store Datathon",
-    location: "Vancouver, BC, Candada",
-    description:
-      "Analyzed a clothing store sales dataset as a team of 4. EDA was completed thoroughly, and developed a business plan for the clothing store to maximize their profit based on the data, identified the associated risks, and proposed mitigation strategies.",
-    buttonText: "",
-    date: "Sep 2023 - Oct 2023",
-    icon: "extracurricular",
-    link: "/",
-  },
-  {
-    id: 5,
-    title: "Executive of UBC Cubing Club",
-    location: "Vancouver, BC, Candada",
+    title: "Treasurer of UBC Cubing Club",
+    location: "UBC Cubing Club | Vancouver, BC, Candada",
     description:
       "Organized and designed internal competitions, weekly meetings, and surveys; managed club funds.",
     buttonText: "View Photos",
@@ -55,7 +44,7 @@ export const timelineElements = [
     link: "/Portfolio/CubingClub.pdf",
   },
   {
-    id: 6,
+    id: 5,
     title: "University of British Columbia",
     location: "Vancouver, BC, Candada",
     description:
@@ -66,7 +55,7 @@ export const timelineElements = [
     link: "/Portfolio/studentTranscript.pdf",
   },
   {
-    id: 7,
+    id: 6,
     title: "Tutor",
     location: "Surrey, BC, Candada",
     description:
