@@ -20,6 +20,8 @@ const App = () => {
           path="/Portfolio/"
           element={
             <div className="components">
+              {/* put navbar here so it isn't on
+               a different route, such as the cubing page */}
               <Navbar />
               <Hero />
               <About />
