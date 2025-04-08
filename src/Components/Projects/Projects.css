@@ -28,6 +28,7 @@
     0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25),
     0 0.4em 1.25em 0 rgba(0, 0, 0, 0.15);
   padding: 2em 3em;
+  border-radius: 50px;
 }
 
 .project-left img {
@@ -52,7 +53,7 @@
 .project-link {
   padding: 20px 30px;
   border-radius: 30px;
-  background: linear-gradient(135deg, #319795, #4fd1c5);
+  background: #118ab2;
   cursor: pointer;
   transition: 0.2s;
 }
@@ -61,6 +62,7 @@
   text-decoration: none;
 }
 .project-link:hover {
+  background: #097397;
   transform: scale(1.05);
 }
 @media only screen and (max-width: 1100px) {

@@ -1,12 +1,24 @@
+import platformer_img from "../../assets/2d_platformer.PNG";
 import algorithm_visualizer_img from "../../assets/algorithm_visualizer.PNG";
+import byte_img from "../../assets/Byte_Datathon.png";
 import cube_timer_img from "../../assets/cube_timer.PNG";
 import employee_attrition_img from "../../assets/employee_attrition.PNG";
-import platformer_img from "../../assets/2d_platformer.PNG";
-import treasure_hunt_img from "../../assets/treasure_hunt.png";
+import pet_img from "../../assets/pet_adoption.png";
 import sap_img from "../../assets/SAP_Datathon.png";
-import byte_img from "../../assets/Byte_Datathon.png";
+import treasure_hunt_img from "../../assets/treasure_hunt.png";
 
 export const projects_data = [
+  {
+    id: 8,
+    title: "Pet Adoption Management System",
+    skills:
+      "Full Stack Development, JavaScript, React.js, Node.js, Express.js, SQL, Database Design, custom API, Oracle DB, UI/UX",
+    description:
+      "A web application that allows users to perform CRUD operations on a pet shelter database enabled with custom APIs.",
+    img_: pet_img,
+    link: "https://github.com/AllanWang1/Pet-Shelter",
+    buttonText: "View Details",
+  },
   {
     id: 1,
     title: "Algorithm Visualizer",

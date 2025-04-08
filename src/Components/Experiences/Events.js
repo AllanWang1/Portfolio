@@ -4,7 +4,7 @@ export const timelineElements = [
     title: "Software Engineer (Co-op)",
     location: "LED Smart Inc. | Surrey, BC, Canada",
     description:
-      "Developed firmware for LED Smart modules, enabling Thread networking using the OpenThread API to support UDP communication to handle protocol messages for controlling LED states.",
+      "Developed firmware for LED Smart modules in C, enabling Thread networking using the OpenThread API to support UDP communication to handle protocol messages for controlling LED states and obtaining RS485 sensor data.",
     buttonText: "",
     date: "Dec 2024 - Aug 2025 (expected)",
     icon: "work",
