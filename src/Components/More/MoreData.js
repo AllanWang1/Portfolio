@@ -3,13 +3,13 @@ import badmintonImg from "../../assets/badminton.PNG";
 import guitarImg from "../../assets/guitar.PNG";
 
 export const moreElements = [
-  {
-    id: 1,
-    title: "Speedcubing",
-    coverImg: cubingImg,
-    link: "/Portfolio/cubing",
-    linkName: "Details",
-  },
+  // {
+  //   id: 1,
+  //   title: "Speedcubing",
+  //   coverImg: cubingImg,
+  //   link: "/Portfolio/cubing",
+  //   linkName: "Details",
+  // },
   {
     id: 2,
     title: "Guitar",

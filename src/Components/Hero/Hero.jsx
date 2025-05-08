@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react";
 import "./Hero.css";
 import profile_img from "../../assets/profile_img.PNG";
+import linkedin_img from "../../assets/linkedin.svg";
+
 const Hero = () => {
   const lines = [
     "I am a third-year Computer Science and Statistics student at UBC",
@@ -55,6 +57,7 @@ const Hero = () => {
       </p>
       <div className="hero-action">
         <div className="hero-connect">
+          <img src={linkedin_img} alt="" />
           <a
             href="https://www.linkedin.com/in/allan-wang-b489a3222/"
             target="_blank"

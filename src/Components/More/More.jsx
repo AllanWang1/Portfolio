@@ -1,14 +1,17 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./More.css";
+import Cubing from "./Cubing/Cubing";
 
 import { moreElements } from "./MoreData";
 const More = () => {
   return (
     <div id="more" className="more">
       <div className="more-title">
-        <h2>More About Me</h2>
+        <h2>Hobbies</h2>
       </div>
+      <h3>Speedcubing</h3>
+      <Cubing />
       <div className="more-container">
         {moreElements.map((activity) => {
           let showLink = activity.link !== "";

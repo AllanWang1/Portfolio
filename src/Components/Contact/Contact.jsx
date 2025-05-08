@@ -45,7 +45,7 @@ const Contact = () => {
             </div>
             <div className="contact-detail">
               <img src={github_icon} alt="" />
-              <p>https://github.com/AllanWang1</p>
+              <a href="https://github.com/AllanWang1">https://github.com/AllanWang1</a>
             </div>
           </div>
         </div>
