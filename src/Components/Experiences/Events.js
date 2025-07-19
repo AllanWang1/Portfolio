@@ -4,7 +4,7 @@ export const timelineElements = [
     title: "Software Engineer (Co-op)",
     location: "LED Smart Inc. | Surrey, BC, Canada",
     description:
-      "Developed firmware for LED Smart modules in C, enabling Thread networking using the OpenThread API to support UDP communication to handle protocols for controlling LED states and obtaining RS485 sensor data.",
+      "Developed embedded software for LED Smart modules in C/C++. Enabled robust Thread networking using the OpenThread API with UDP communication to handle protocol messages to achieve control over Light bars. 💡",
     buttonText: "",
     date: "Dec 2024 - Aug 2025 (expected)",
     icon: "work",
@@ -12,14 +12,14 @@ export const timelineElements = [
   },
   {
     id: 2,
-    title: "Web Development Manager of UBC Cubing Club",
+    title: "Web Development Lead of UBC Cubing Club",
     location: "UBC Cubing Club | Vancouver, BC, Canada",
     description:
-      "Currently developing a website to manage the UBC Cubing Club. The website will be used to host internal tournaments and store member statistics, which enables a new system for the club.",
-    buttonText: "",
+      "Led the development of a website to transform the meeting structure of the UBC Cubing Club. The website will be used to host internal tournaments and store interesting member statistics such as UBC ranking for each event.",
+    buttonText: "Visit Website",
     date: "Jan 2025 - Present",
     icon: "extracurricular",
-    link: "/",
+    link: "https://speedcubingubc.vercel.app/",
   },
   {
     id: 3,

@@ -6,8 +6,20 @@ import employee_attrition_img from "../../assets/employee_attrition.PNG";
 import pet_img from "../../assets/pet_adoption.png";
 import sap_img from "../../assets/SAP_Datathon.png";
 import treasure_hunt_img from "../../assets/treasure_hunt.png";
+import ubc_cubing_club_img from "../../assets/UBC_Cubing_Website.PNG";
 
 export const projects_data = [
+  {
+    id: 9,
+    title: "UBC Cubing Club Website",
+    skills:
+      "Next.js, React.js, TypeScript, Supabase, Supabase Auth, PostgreSQL, Database Design, HTML, CSS, Git, Project Management, UI/UX, Feedback Implementation",
+    description:
+      "Website for the UBC Cubing Club. Past results of members are gathered and organized into leaderboards for viewing. Intuitive website that ensures the cubing experience with the timer and navigation are simple to use. Registered members can use built-in timers to submit times to the database, improving traditional compeititon format by streamlining the result submission process.",
+    img_: ubc_cubing_club_img,
+    link: "https://speedcubingubc.vercel.app/",
+    buttonText: "Visit Website",
+  },
   {
     id: 8,
     title: "Pet Adoption Management System",
