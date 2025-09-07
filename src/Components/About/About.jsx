@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.css";
-import profile_img from "../../assets/profile.svg";
+import profile_img from "../../assets/allan_bridge.svg";
 const About = () => {
   return (
     <div id="about" className="about">
@@ -25,43 +25,42 @@ const About = () => {
               myself new concepts to develop my own projects.
             </p>
           </div>
-          <div className="about-skills">
-            <div className="about-skill">
-              <p>Python</p>
-              <hr style={{ width: "60%" }} />
-            </div>
-            <div className="about-skill">
-              <p>Java</p>
-              <hr style={{ width: "55%" }} />
-            </div>
-            <div className="about-skill">
-              <p>C/C++</p>
-              <hr style={{ width: "65%" }} />
-            </div>
-            <div className="about-skill">
-              <p>Swift</p>
-              <hr style={{ width: "50%" }} />
-            </div>
-            <div className="about-skill">
-              <p>HTML & CSS</p>
-              <hr style={{ width: "45%" }} />
-            </div>
-            <div className="about-skill">
-              <p>JavaScript</p>
-              <hr style={{ width: "55%" }} />
-            </div>
-            <div className="about-skill">
-              <p>R</p>
-              <hr style={{ width: "30%" }} />
-            </div>
-            <div className="about-skill">
-              <p>SQL</p>
-              <hr style={{ width: "50%" }} />
-            </div>
-          </div>
         </div>
       </div>
-
+      <div className="about-skills">
+        <div className="about-skill">
+          <p>Python</p>
+          <hr style={{ width: "60%" }} />
+        </div>
+        <div className="about-skill">
+          <p>Java</p>
+          <hr style={{ width: "55%" }} />
+        </div>
+        <div className="about-skill">
+          <p>C/C++</p>
+          <hr style={{ width: "65%" }} />
+        </div>
+        <div className="about-skill">
+          <p>Swift</p>
+          <hr style={{ width: "50%" }} />
+        </div>
+        <div className="about-skill">
+          <p>HTML & CSS</p>
+          <hr style={{ width: "45%" }} />
+        </div>
+        <div className="about-skill">
+          <p>JavaScript</p>
+          <hr style={{ width: "55%" }} />
+        </div>
+        <div className="about-skill">
+          <p>R</p>
+          <hr style={{ width: "30%" }} />
+        </div>
+        <div className="about-skill">
+          <p>SQL</p>
+          <hr style={{ width: "50%" }} />
+        </div>
+      </div>
       <div className="about-achievements">
         <div className="about-achievement">
           <h3>2 Times Dean's Honour List</h3>
