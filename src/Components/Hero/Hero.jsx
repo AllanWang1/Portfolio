@@ -1,14 +1,10 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import "./Hero.css";
-import profile_img from "../../assets/profile_img.PNG";
+import profile_img from "../../assets/profile.jpeg";
 import linkedin_img from "../../assets/linkedin.svg";
 
 const Hero = () => {
-  const lines = [
-    "I am a third-year Computer Science and Statistics student at UBC",
-    "with strong passion for creating practical, impactful programs",
-    "and tackling challenges through data-driven solutions.",
-  ];
+  const lines = ["Welcome to my portfolio website!"];
 
   const [displayedText, setDisplayedText] = useState(["", "", ""]); // Stores typed characters
   const [currentLine, setCurrentLine] = useState(0);
@@ -45,7 +41,8 @@ const Hero = () => {
       </div>
 
       <h1>
-        <span>I'm Allan Wang, </span>Third Year Computer Science Student At UBC
+        <span>I'm Allan Wang, </span>Computer Science + Statistics Student at
+        UBC.
       </h1>
       <p className="animated-text">
         {displayedText.map((line, index) => (

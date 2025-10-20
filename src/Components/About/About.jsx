@@ -12,53 +12,16 @@ const About = () => {
         <div className="about-right">
           <div className="about-para">
             <p>
-              Hello! I am Allan, I am a third-year Computer Science and
-              Statistics student at UBC. I am passionate about both fields and
-              enjoy applying my knowledge in real-world problems.
+              Hello! I am Allan, I am a fourth-year Computer Science and
+              Statistics student at UBC. I am passionate about both fields of study and
+              I enjoy applying my knowledge in real-world problems.
             </p>
             <p>
-              During my time at UBC, I have discovered my love for working on
-              projects and participating in events that challenge my technical
-              skills. I strive to refine classroom learning through in-class
-              academic projects and further extending them in personal projects
-              and technical events. Self-motivated and curious, I often teach
-              myself new concepts to develop my own projects.
+              I enjoy working on projects that are impactful and challenging. I 
+              have experience in embedded software engineering, web development, 
+              infotainment applications, and data analysis. 
             </p>
           </div>
-        </div>
-      </div>
-      <div className="about-skills">
-        <div className="about-skill">
-          <p>Python</p>
-          <hr style={{ width: "60%" }} />
-        </div>
-        <div className="about-skill">
-          <p>Java</p>
-          <hr style={{ width: "55%" }} />
-        </div>
-        <div className="about-skill">
-          <p>C/C++</p>
-          <hr style={{ width: "65%" }} />
-        </div>
-        <div className="about-skill">
-          <p>Swift</p>
-          <hr style={{ width: "50%" }} />
-        </div>
-        <div className="about-skill">
-          <p>HTML & CSS</p>
-          <hr style={{ width: "45%" }} />
-        </div>
-        <div className="about-skill">
-          <p>JavaScript</p>
-          <hr style={{ width: "55%" }} />
-        </div>
-        <div className="about-skill">
-          <p>R</p>
-          <hr style={{ width: "30%" }} />
-        </div>
-        <div className="about-skill">
-          <p>SQL</p>
-          <hr style={{ width: "50%" }} />
         </div>
       </div>
       <div className="about-achievements">

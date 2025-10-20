@@ -24,7 +24,7 @@ const App = () => {
                a different route, such as the cubing page */}
               <Navbar />
               <Hero />
-              <About />
+              {/* <About /> */}
               <Experiences />
               <Projects />
               <More />

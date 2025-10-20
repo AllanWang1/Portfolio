@@ -1,5 +1,5 @@
 import React from "react";
-import WorkIcon from "../../assets/work.svg";
+import WorkIcon from "../../assets/work.png";
 import EducationIcon from "../../assets/education.svg";
 import ExtracurricularIcon from "../../assets/extracurricular.svg";
 
@@ -14,9 +14,9 @@ import "react-vertical-timeline-component/style.min.css";
 import "./Experiences.css";
 
 const Experiences = () => {
-  let workIconStyles = { background: "#06D6A0" };
-  let educationIconStyles = { background: "#f9c74f" };
-  let extracurricularIconStyles = { background: "#118AB2" };
+  let workIconStyles = { background: "#609cebff" };
+  let educationIconStyles = { background: "#27AE60" };
+  let extracurricularIconStyles = { background: "#F2994A" };
   // console.log(timelineElements);
   return (
     <div id="experiences" className="experiences">

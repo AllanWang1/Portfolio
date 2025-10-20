@@ -10,7 +10,6 @@ const More = () => {
       <div className="more-title">
         <h2>Hobbies</h2>
       </div>
-      <h3>Speedcubing</h3>
       <Cubing />
       <div className="more-container">
         {moreElements.map((activity) => {

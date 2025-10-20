@@ -1,17 +1,28 @@
 export const timelineElements = [
   {
-    id: 1,
+    id: 6,
+    title: "Software Infotainment Platform Engineer (Co-op)",
+    location: "Rivian and Volkswagen Group Technologies | Vancouver, BC, Canada",
+    description:
+      "In progress... Developing performance KPI monitoring software for GPU and DSP to improve reliability and consistency of infotainment application development.",
+    buttonText: "",
+    date: "Sep 2025 - Apr 2026 (expected)",
+    icon: "work",
+    link: "/",
+  },
+  {
+    id: 5,
     title: "Software Engineer (Co-op)",
     location: "LED Smart Inc. | Surrey, BC, Canada",
     description:
       "Developed embedded software for LED Smart modules in C/C++. Enabled robust Thread networking using the OpenThread API with UDP communication to handle protocol messages to achieve control over Light bars. 💡",
     buttonText: "",
-    date: "Dec 2024 - Aug 2025 (expected)",
+    date: "Dec 2024 - Aug 2025",
     icon: "work",
     link: "/",
   },
   {
-    id: 2,
+    id: 4,
     title: "Web Development Lead of UBC Cubing Club",
     location: "UBC Cubing Club | Vancouver, BC, Canada",
     description:
@@ -32,19 +43,19 @@ export const timelineElements = [
     icon: "work",
     link: "/",
   },
+  // {
+  //   id: 2,
+  //   title: "Treasurer of UBC Cubing Club",
+  //   location: "UBC Cubing Club | Vancouver, BC, Candada",
+  //   description:
+  //     "Organized and designed internal competitions, weekly meetings, and surveys; managed club funds.",
+  //   buttonText: "View Photos",
+  //   date: "Sep 2023 - Present",
+  //   icon: "extracurricular",
+  //   link: "/Portfolio/CubingClub.pdf",
+  // },
   {
-    id: 4,
-    title: "Treasurer of UBC Cubing Club",
-    location: "UBC Cubing Club | Vancouver, BC, Candada",
-    description:
-      "Organized and designed internal competitions, weekly meetings, and surveys; managed club funds.",
-    buttonText: "View Photos",
-    date: "Sep 2023 - Present",
-    icon: "extracurricular",
-    link: "/Portfolio/CubingClub.pdf",
-  },
-  {
-    id: 5,
+    id: 1,
     title: "University of British Columbia",
     location: "Vancouver, BC, Candada",
     description:
@@ -55,7 +66,7 @@ export const timelineElements = [
     link: "/Portfolio/studentTranscript.pdf",
   },
   {
-    id: 6,
+    id: 0,
     title: "Tutor",
     location: "Surrey, BC, Candada",
     description:
