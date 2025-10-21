@@ -8,4 +8,6 @@ body {
   background: #f9fafb;
   color: #2d3748;
   font-family: "outfit";
+  scroll-behavior: smooth;
+  overflow-x: hidden;
 }
