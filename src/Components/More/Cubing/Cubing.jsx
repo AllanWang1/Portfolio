@@ -6,9 +6,16 @@ import SpringSolving from "../../../assets/cubing/SpringSolving.png";
 import PleaseBeSolved2025 from "../../../assets/cubing/PleaseBeSolved2025.png";
 import UBCYearEnd2025 from "../../../assets/cubing/UBCYearEnd2025.png";
 import SurreyMondayOpen from "../../../assets/cubing/SurreyMondayOpen.png";
+import WhatAreTheOddsCoquitlam from "../../../assets/cubing/WhatAreTheOddsCoquitlam.png";
 import SolveVideo from "../../../assets/cubing/speedsolve.mp4";
 
 const podiums = [
+  {
+    medal: "🥇",
+    title: "What Are the Odds Coquitlam 2025 - 1st place in 5x5",
+    img: WhatAreTheOddsCoquitlam,
+    link: "https://www.worldcubeassociation.org/competitions/WhatAretheOddsCoquitlam2025",
+  },
   {
     medal: "🥈",
     title: "Surrey Monday Open 2025 - Organizer & 2nd place in 5x5",

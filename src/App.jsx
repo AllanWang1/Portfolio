@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./Components/Navbar/Navbar";
 import Hero from "./Components/Hero/Hero";
 import About from "./Components/About/About";
+import SwipeStory from "./Components/SwipeStory/SwipeStory";
 import Experiences from "./Components/Experiences/Experiences";
 import Projects from "./Components/Projects/Projects";
 import Contact from "./Components/Contact/Contact";
@@ -24,6 +25,22 @@ const App = () => {
                a different route, such as the cubing page */}
               <Navbar />
               <Hero />
+              {/* <SwipeStory
+                stories={[
+                  <div>
+                    <h2>Wuhan, China</h2>
+                    <p>My hometown!</p>
+                  </div>,
+                  <div>
+                    <h2>UBC</h2>
+                    <p>Studied Computer Science here.</p>
+                  </div>,
+                  <div>
+                    <h2>Software Developer</h2>
+                    <p>Currently building cool things.</p>
+                  </div>,
+                ]}
+              /> */}
               {/* <About /> */}
               <Experiences />
               <Projects />

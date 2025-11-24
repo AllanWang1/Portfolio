@@ -1,0 +1,94 @@
+.swipe-story-container {
+  position: relative;
+  width: 100%;
+  max-width: 750px;
+  margin: 60px auto;
+  overflow: hidden;
+  border-radius: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+  transition: box-shadow 0.3s ease;
+}
+
+.swipe-story-container:hover {
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.12);
+}
+
+.swipe-story-wrapper {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 420px;
+  padding: 30px;
+}
+
+.story-page {
+  width: 100%;
+  text-align: center;
+  color: #2d3748;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  transition: opacity 0.3s ease;
+}
+
+/* Gradient Buttons */
+.swipe-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: linear-gradient(135deg, #064e3b, #6b705c);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 42px;
+  height: 42px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  z-index: 2;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.swipe-btn:hover {
+  transform: translateY(-50%) scale(1.08);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+}
+
+.swipe-btn.left {
+  left: 18px;
+}
+
+.swipe-btn.right {
+  right: 18px;
+}
+
+/* Empty State */
+.swipe-story-empty {
+  text-align: center;
+  color: #6b705c;
+  font-style: italic;
+  padding: 60px 20px;
+}
+
+/* Subtle animation for story transitions */
+.story-page-enter {
+  opacity: 0;
+  transform: translateX(30px);
+}
+.story-page-enter-active {
+  opacity: 1;
+  transform: translateX(0);
+  transition: opacity 0.3s, transform 0.3s;
+}
+.story-page-exit {
+  opacity: 1;
+  transform: translateX(0);
+}
+.story-page-exit-active {
+  opacity: 0;
+  transform: translateX(-30px);
+  transition: opacity 0.3s, transform 0.3s;
+}
