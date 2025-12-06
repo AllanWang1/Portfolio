@@ -1,4 +1,3 @@
-import React from "react";
 import "./Projects.css";
 import { projects_data } from "./projects_data";
 

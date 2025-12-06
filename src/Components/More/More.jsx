@@ -2,8 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./More.css";
 import Cubing from "./Cubing/Cubing";
+import Badminton from "../../assets/badminton.mp4";
 
-import { moreElements } from "./MoreData";
 const More = () => {
   return (
     <div id="more" className="more">
@@ -11,26 +11,11 @@ const More = () => {
         <h2>Hobbies</h2>
       </div>
       <Cubing />
-      <div className="more-container">
-        {moreElements.map((activity) => {
-          let showLink = activity.link !== "";
-          return (
-            <div key={activity.id} className="activity">
-              <h3>{activity.title}</h3>
-              <div className="activity-img-container">
-                <img src={activity.coverImg} alt="" />
-              </div>
-              {showLink ? (
-                <div className="activity-link">
-                  <Link to={activity.link}>{activity.linkName}</Link>
-                </div>
-              ) : (
-                <div></div>
-              )}
-            </div>
-          );
-        })}
+      <div className="badminton">
+        <h3>Badminton</h3>
+        <video src={Badminton} autoPlay muted loop playsInline />
       </div>
+      
     </div>
   );
 };

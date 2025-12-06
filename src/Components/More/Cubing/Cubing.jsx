@@ -73,7 +73,6 @@ const Cubing = () => {
       {/* <h2>My fastest solve in Competition: (7.92s)</h2>
       <video src={SolveVideo} controls /> */}
       <div className="podium-container">
-        <h2 className="podium-heading">Cubing Highlights</h2>
         <div className="podium-grid">
           {podiums.map((p, i) => (
             <PodiumCard key={i} {...p} />
