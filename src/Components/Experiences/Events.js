@@ -4,9 +4,9 @@ export const timelineElements = [
     title: "Software Infotainment Platform Engineer (Co-op)",
     location: "Rivian and Volkswagen Group Technologies | Vancouver, BC, Canada",
     description:
-      "In progress... Developing performance KPI monitoring software for GPU and DSP to improve reliability and consistency of infotainment application development.",
+      "Developed performance KPI monitoring service in C++ to improve reliability and efficiency of resource consumption reporting of infotainment platforms.",
     buttonText: "",
-    date: "Sep 2025 - Apr 2026 (expected)",
+    date: "Sep 2025 - Apr 2026",
     icon: "work",
     link: "/",
   },
