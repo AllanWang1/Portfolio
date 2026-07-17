@@ -1,5 +1,6 @@
 import React from "react";
 import "./Cubing.css";
+import CubeIcon from "../../../assets/cubing/cube_icon.svg";
 
 import { podiums } from "./CubingData";
 
@@ -25,11 +26,17 @@ const PodiumCard = ({ medal, title, img, link }) => (
 const Cubing = () => {
   return (
     <section className="cubing">
-      <h2>Speedcubing</h2>
+      <div className="cubing-title">
+        <img src={CubeIcon} alt="Cube Icon" className="cube-icon" />
+        <h2>Speedcubing</h2>
+        <img src={CubeIcon} alt="Cube Icon" className="cube-icon" />
+      </div>
+      
 
       <p className="cubing-description">
-        I've been competing in WCA competitions since 2022. My favorite events
-        are <strong>5×5×5</strong> and <strong>3×3 Blindfolded</strong>.
+        I've been cubing since the age of 10, and have been 
+        competing in WCA competitions since 2022. My favorite events
+        are <strong>5x5x5</strong> and <strong>3x3x3</strong>.
       </p>
 
       <a

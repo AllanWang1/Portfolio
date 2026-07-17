@@ -1,13 +1,11 @@
 import React from "react";
 import "./About.css";
-import profile_img from "../../assets/allan_bridge.svg";
 const About = () => {
   return (
     <div id="about" className="about">
       <h2>About Me</h2>
       <div className="about-sections">
         <div className="about-left">
-          <img src={profile_img} alt="" />
         </div>
         <div className="about-right">
           <div className="about-para">

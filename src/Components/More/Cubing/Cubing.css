@@ -1,264 +1,239 @@
 .cubing {
-    max-width: 100%;
-    padding: 4rem 0;
+  max-width: 100%;
 }
 
 /* ---------- Header ---------- */
+.cubing-title {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.cubing-title img {
+    height: 60px;
+    width: auto;
+}
 
 .cubing h2 {
-    text-align: center;
-    font-size: 2.7rem;
-    margin-bottom: 0.75rem;
+  text-align: center;
+  font-size: 60px;
+  margin-bottom: 0.75rem;
 }
 
 .cubing-description {
-    max-width: 720px;
-    margin: 0 auto 1.5rem;
-    padding: 0 1rem;
+  max-width: 720px;
+  margin: 0 auto 1.5rem;
+  padding: 0 1rem;
 
-    text-align: center;
-    line-height: 1.6;
-    color: #666;
+  text-align: center;
+  line-height: 1.6;
+  color: #666;
 }
 
 .wca-button {
-    display: block;
-    width: fit-content;
-
-    margin: 0 auto 3rem;
-
-    padding: 0.9rem 1.6rem;
-
-    border-radius: 999px;
-
-    background: #2b6cff;
-    color: white;
-
-    text-decoration: none;
-    font-weight: 600;
-
-    transition: all 0.2s ease;
+  display: block;
+  width: fit-content;
+  margin: 0 auto 3rem;
+  padding: 0.9rem 1.6rem;
+  border-radius: 999px;
+  background: linear-gradient(135deg, #064e3b, #6b705c);
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.2s ease;
 }
 
 .wca-button:hover {
-    background: #174bc8;
-    transform: translateY(-2px);
+  background: linear-gradient(135deg, #6b705c, #064e3b);
+  transform: translateY(-2px);
 }
 
 /* ---------- Horizontal Gallery ---------- */
 .podium-scroll-container {
-    overflow-x: auto;
-    overflow-y: hidden;
-    scroll-behavior: smooth;
-    scroll-snap-type: x proximity;
-    
-    mask-image: linear-gradient(
-        to right, 
-        transparent, 
-        black 5%, 
-        black 95%, 
-        transparent
-    );
-    -webkit-mask-image: linear-gradient(
-        to right, 
-        transparent, 
-        black 5%, 
-        black 95%, 
-        transparent
-    );
-    
-    padding: 1rem 0 2rem;
-    -webkit-overflow-scrolling: touch;
-    scrollbar-width: none; /* Hide scrollbar for cleaner look */
+  overflow-x: auto;
+  overflow-y: hidden;
+  scroll-behavior: smooth;
+  scroll-snap-type: x proximity;
+
+  mask-image: linear-gradient(
+    to right,
+    transparent,
+    black 5%,
+    black 95%,
+    transparent
+  );
+  -webkit-mask-image: linear-gradient(
+    to right,
+    transparent,
+    black 5%,
+    black 95%,
+    transparent
+  );
+
+  padding: 1rem 0 2rem;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
 }
 
-/* Hide scrollbar for Chrome/Safari/Edge */
 .podium-scroll-container::-webkit-scrollbar {
-    display: none;
+  display: none;
 }
 
 .podium-scroll {
-    display: flex;
-    gap: 2rem;
-    width: max-content;
-    padding: 0 4rem; /* Keeps content away from the fade masks */
+  display: flex;
+  gap: 2rem;
+  width: max-content;
+  padding: 0 4rem;
 }
 
 /* ---------- Card ---------- */
 
 .podium-card {
-
-    flex: 0 0 380px;
-
-    scroll-snap-align: start;
-
-    background: white;
-
-    border-radius: 22px;
-
-    overflow: hidden;
-
-    text-decoration: none;
-    color: inherit;
-    box-shadow:
-        0 10px 30px rgba(0,0,0,.08);
-    transition:
-        transform .25s ease,
-        box-shadow .25s ease;
-    background: #ffffff;
-    border: 1px solid rgba(0, 0, 0, 0.05); /* Defines the edge clearly */
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05); /* Lighter base shadow */
-    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  flex: 0 0 350px;
+  scroll-snap-align: start;
+  text-decoration: none;
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 24px;
+  overflow: hidden;
+  box-shadow: 0 20px 40px -10px rgba(0, 0, 0, 0.15);
+  transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
 .podium-card:hover {
-    border-color: rgba(43, 108, 255, 0.3);
-    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.12);
-    transform: translateY(-12px) scale(1.02); 
+  transform: translateY(-15px) rotate(1deg);
 }
 
+.podium-card::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 2px solid transparent;
+  border-radius: 24px;
+  transition: border-color 0.3s;
+  pointer-events: none;
+}
+
+.podium-card:hover::after {
+  border-color: #064e3b;
+}
 /* ---------- Image ---------- */
 
 .podium-image-wrapper {
-
-    position: relative;
-
-    width: 100%;
-
-    height: 520px;
-
-    background: #f6f6f6;
-
-    display: flex;
-
-    align-items: center;
-    justify-content: center;
+  height: 380px;
+  position: relative;
+  padding: 2rem;
+  background-color: #f8f9fa;
+  background-image: radial-gradient(#d1d5db 1px, transparent 1px);
+  background-size: 20px 20px;
+  position: relative;
 }
 
 .podium-img {
+  width: 100%;
+  height: 100%;
 
-    width: 100%;
-    height: 100%;
+  object-fit: contain;
 
-    object-fit: contain;
-
-    display: block;
+  display: block;
 }
 
 /* ---------- Medal ---------- */
 
 .podium-medal {
-
-    position: absolute;
-
-    top: 18px;
-    right: 18px;
-
-    width: 58px;
-    height: 58px;
-
-    border-radius: 50%;
-
-    display: flex;
-
-    align-items: center;
-    justify-content: center;
-
-    font-size: 2rem;
-
-    background: rgba(255,255,255,.92);
-
-    backdrop-filter: blur(8px);
-
-    box-shadow:
-        0 5px 18px rgba(0,0,0,.15);
+  position: absolute;
+  top: 18px;
+  right: 18px;
+  width: 58px;
+  height: 58px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  backdrop-filter: blur(8px);
+  box-shadow: 0 5px 18px rgba(0, 0, 0, 0.15);
 }
 
 /* ---------- Text ---------- */
 
 .podium-content {
-
-    padding: 1.4rem 1.5rem 1.7rem;
-
-    min-height: 90px;
+  padding: 1.5rem 2rem;
+  background: #fff;
 }
 
 .podium-content h4 {
+  font-family: system-ui, sans-serif;
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  color: #1a1a1a;
+  margin: 0;
 
-    margin: 0;
-
-    font-size: 1.05rem;
-
-    line-height: 1.5;
-
-    font-weight: 600;
+  /* If the title is long, this clips it elegantly */
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
 /* ---------- Scrollbar ---------- */
 
 .podium-scroll-container::-webkit-scrollbar {
-
-    height: 10px;
+  height: 10px;
 }
 
 .podium-scroll-container::-webkit-scrollbar-track {
-
-    background: transparent;
+  background: transparent;
 }
 
 .podium-scroll-container::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.25);
 
-    background: rgba(0,0,0,.25);
-
-    border-radius: 999px;
+  border-radius: 999px;
 }
 
 .podium-scroll-container::-webkit-scrollbar-thumb:hover {
-
-    background: rgba(0,0,0,.45);
+  background: rgba(0, 0, 0, 0.45);
 }
 
 /* ---------- Mobile ---------- */
 
 @media (max-width: 768px) {
+  .cubing {
+    padding: 3rem 0;
+  }
 
-    .cubing {
+  .cubing h2 {
+    font-size: 2.1rem;
+  }
 
-        padding: 3rem 0;
-    }
+  .podium-scroll {
+    gap: 1.25rem;
 
-    .cubing h2 {
+    padding: 0 1rem;
+  }
 
-        font-size: 2.1rem;
-    }
+  .podium-card {
+    flex-basis: 300px;
+  }
 
-    .podium-scroll {
+  .podium-image-wrapper {
+    height: 420px;
+  }
 
-        gap: 1.25rem;
-
-        padding: 0 1rem;
-    }
-
-    .podium-card {
-
-        flex-basis: 300px;
-    }
-
-    .podium-image-wrapper {
-
-        height: 420px;
-    }
-
-    .podium-content h4 {
-
-        font-size: 0.95rem;
-    }
+  .podium-content h4 {
+    font-size: 0.95rem;
+  }
 }
 
 .scroll-hint {
-    text-align: center;
-    font-size: 0.85rem;
-    color: #999;
-    margin-top: 0.5rem;
-    pointer-events: none; /* Allows clicking through text to cards */
+  text-align: center;
+  font-size: 0.85rem;
+  color: #999;
+  margin-top: 0.5rem;
+  pointer-events: none; /* Allows clicking through text to cards */
 }
