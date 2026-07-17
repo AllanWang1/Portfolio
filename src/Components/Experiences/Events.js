@@ -1,7 +1,7 @@
 export const timelineElements = [
   {
     id: 6,
-    title: "Software Infotainment Platform Engineer (Co-op)",
+    title: "Software Engineer - Infotainment Platform (Co-op)",
     location: "Rivian and Volkswagen Group Technologies | Vancouver, BC, Canada",
     description:
       "Developed performance KPI monitoring service in C++ to improve reliability and efficiency of resource consumption reporting of infotainment platforms.",
@@ -59,9 +59,9 @@ export const timelineElements = [
     title: "University of British Columbia",
     location: "Vancouver, BC, Candada",
     description:
-      "3rd Year Bachelor of Science, Combined Major in Computer Science and Statistics.",
+      "4th Year Bachelor of Science, Combined Major in Computer Science and Statistics.",
     buttonText: "View Transcript",
-    date: "Sep 2022 - May 2027 (Expected)",
+    date: "Sep 2022 - Nov 2027 (Expected)",
     icon: "education",
     link: "/Portfolio/studentTranscript.pdf",
   },

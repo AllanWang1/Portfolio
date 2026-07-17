@@ -1,138 +1,264 @@
 .cubing {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 20px;
-  margin-bottom: 10px;
-  overflow-x: hidden;
+    max-width: 100%;
+    padding: 4rem 0;
 }
 
-.cubing-wca-link {
-  display: inline-block;
-  background-color: #064e3b;
-  padding: 10px 20px;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: 0.3s;
+/* ---------- Header ---------- */
+
+.cubing h2 {
+    text-align: center;
+    font-size: 2.7rem;
+    margin-bottom: 0.75rem;
 }
 
-.cubing-wca-link a {
-  text-decoration: none;
-  color: white;
+.cubing-description {
+    max-width: 720px;
+    margin: 0 auto 1.5rem;
+    padding: 0 1rem;
+
+    text-align: center;
+    line-height: 1.6;
+    color: #666;
 }
 
-.cubing-wca-link:hover {
-  transform: scale(1.05);
+.wca-button {
+    display: block;
+    width: fit-content;
+
+    margin: 0 auto 3rem;
+
+    padding: 0.9rem 1.6rem;
+
+    border-radius: 999px;
+
+    background: #2b6cff;
+    color: white;
+
+    text-decoration: none;
+    font-weight: 600;
+
+    transition: all 0.2s ease;
 }
 
-.cubing-intro {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 30px;
+.wca-button:hover {
+    background: #174bc8;
+    transform: translateY(-2px);
 }
 
-.podium-container {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 30px;
-  justify-content: center;
+/* ---------- Horizontal Gallery ---------- */
+.podium-scroll-container {
+    overflow-x: auto;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+    scroll-snap-type: x proximity;
+    
+    mask-image: linear-gradient(
+        to right, 
+        transparent, 
+        black 5%, 
+        black 95%, 
+        transparent
+    );
+    -webkit-mask-image: linear-gradient(
+        to right, 
+        transparent, 
+        black 5%, 
+        black 95%, 
+        transparent
+    );
+    
+    padding: 1rem 0 2rem;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none; /* Hide scrollbar for cleaner look */
 }
 
-.cubing h4 {
-  font-size: 14px;
+/* Hide scrollbar for Chrome/Safari/Edge */
+.podium-scroll-container::-webkit-scrollbar {
+    display: none;
 }
 
-video {
-  width: 500px;
-  height: auto;
-  border-radius: 10px;
+.podium-scroll {
+    display: flex;
+    gap: 2rem;
+    width: max-content;
+    padding: 0 4rem; /* Keeps content away from the fade masks */
 }
 
-.podium-container {
-  text-align: center;
-  padding: 40px 20px;
-  background-color: #f9fafb;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 20px;
-  width: 100%;
-  box-sizing: border-box;
-}
-
-.podium-heading {
-  font-size: 2rem;
-  font-weight: 700;
-  margin-bottom: 40px;
-  color: #2d3748;
-}
-
-.podium-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
-  gap: 20px;
-  justify-items: center;
-  align-items: stretch;
-  width: 100%;
-  max-width: 1100px;
-  margin: 0 auto;
-  box-sizing: border-box;
-  padding: 0 16px; 
-}
-
-.podium {
-  background-color: #fff;
-  border: 2px solid #ccc;
-  border-radius: 12px;
-  padding: 15px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  max-width: 320px;
-  width: 100%;
-}
+/* ---------- Card ---------- */
 
 .podium-card {
-  background: #fff7e6;
-  border: 2px solid #064e3b;
-  border-radius: 16px;
-  overflow: hidden;
-  transition: transform 0.25s ease, box-shadow 0.25s ease;
-  width: 100%;
-  max-width: 300px;
-}
 
-.podium-card a {
-  text-decoration: none;
+    flex: 0 0 380px;
+
+    scroll-snap-align: start;
+
+    background: white;
+
+    border-radius: 22px;
+
+    overflow: hidden;
+
+    text-decoration: none;
+    color: inherit;
+    box-shadow:
+        0 10px 30px rgba(0,0,0,.08);
+    transition:
+        transform .25s ease,
+        box-shadow .25s ease;
+    background: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.05); /* Defines the edge clearly */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05); /* Lighter base shadow */
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .podium-card:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+    border-color: rgba(43, 108, 255, 0.3);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.12);
+    transform: translateY(-12px) scale(1.02); 
+}
+
+/* ---------- Image ---------- */
+
+.podium-image-wrapper {
+
+    position: relative;
+
+    width: 100%;
+
+    height: 520px;
+
+    background: #f6f6f6;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
 }
 
 .podium-img {
-  width: 100%;
-  height: 180px;
-  object-fit: cover;
+
+    width: 100%;
+    height: 100%;
+
+    object-fit: contain;
+
+    display: block;
 }
 
+/* ---------- Medal ---------- */
 
-.podium-title {
-  font-size: 1rem;
-  font-weight: 500;
-  padding: 12px;
-  color: #2d3748;
-  line-height: 1.4;
-  text-decoration: none;
+.podium-medal {
+
+    position: absolute;
+
+    top: 18px;
+    right: 18px;
+
+    width: 58px;
+    height: 58px;
+
+    border-radius: 50%;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    font-size: 2rem;
+
+    background: rgba(255,255,255,.92);
+
+    backdrop-filter: blur(8px);
+
+    box-shadow:
+        0 5px 18px rgba(0,0,0,.15);
 }
+
+/* ---------- Text ---------- */
+
+.podium-content {
+
+    padding: 1.4rem 1.5rem 1.7rem;
+
+    min-height: 90px;
+}
+
+.podium-content h4 {
+
+    margin: 0;
+
+    font-size: 1.05rem;
+
+    line-height: 1.5;
+
+    font-weight: 600;
+}
+
+/* ---------- Scrollbar ---------- */
+
+.podium-scroll-container::-webkit-scrollbar {
+
+    height: 10px;
+}
+
+.podium-scroll-container::-webkit-scrollbar-track {
+
+    background: transparent;
+}
+
+.podium-scroll-container::-webkit-scrollbar-thumb {
+
+    background: rgba(0,0,0,.25);
+
+    border-radius: 999px;
+}
+
+.podium-scroll-container::-webkit-scrollbar-thumb:hover {
+
+    background: rgba(0,0,0,.45);
+}
+
+/* ---------- Mobile ---------- */
 
 @media (max-width: 768px) {
-  .podium-grid {
-    grid-template-columns: 1fr;
-    padding: 0 5px;
-  }
 
-  .podium {
-    max-width: 95%;
-  }
+    .cubing {
+
+        padding: 3rem 0;
+    }
+
+    .cubing h2 {
+
+        font-size: 2.1rem;
+    }
+
+    .podium-scroll {
+
+        gap: 1.25rem;
+
+        padding: 0 1rem;
+    }
+
+    .podium-card {
+
+        flex-basis: 300px;
+    }
+
+    .podium-image-wrapper {
+
+        height: 420px;
+    }
+
+    .podium-content h4 {
+
+        font-size: 0.95rem;
+    }
+}
+
+.scroll-hint {
+    text-align: center;
+    font-size: 0.85rem;
+    color: #999;
+    margin-top: 0.5rem;
+    pointer-events: none; /* Allows clicking through text to cards */
 }
