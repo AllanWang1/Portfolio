@@ -1,10 +1,18 @@
 import React from "react";
 import "./Cubing.css";
 import CubeIcon from "../../../assets/cubing/cube_icon.svg";
-
+import Icon333BLD from "../../../assets/cubing/event-icons/333bf.svg";
+import Icon333MBLD from "../../../assets/cubing/event-icons/333mbf.svg";
+import Icon555 from "../../../assets/cubing/event-icons/555.svg";
 import { podiums } from "./CubingData";
 
-const PodiumCard = ({ medal, title, img, link }) => (
+const eventIconMap = {
+  "3x3x3BLD": Icon333BLD,
+  "3x3x3MBLD": Icon333MBLD,
+  "5x5x5": Icon555,
+}
+
+const PodiumCard = ({ medal, title, img, event, link }) => (
   <a
     className="podium-card"
     href={link}
@@ -15,6 +23,9 @@ const PodiumCard = ({ medal, title, img, link }) => (
       <img src={img} alt={title} className="podium-img" loading="lazy" />
 
       <span className="podium-medal">{medal}</span>
+      <span className="podium-event">
+        <img src={eventIconMap[event]} alt={event} />
+      </span>
     </div>
 
     <div className="podium-content">
@@ -31,13 +42,6 @@ const Cubing = () => {
         <h2>Speedcubing</h2>
         <img src={CubeIcon} alt="Cube Icon" className="cube-icon" />
       </div>
-      
-
-      <p className="cubing-description">
-        I've been cubing since the age of 10, and have been 
-        competing in WCA competitions since 2022. My favorite events
-        are <strong>5x5x5</strong> and <strong>3x3x3</strong>.
-      </p>
 
       <a
         className="wca-button"
