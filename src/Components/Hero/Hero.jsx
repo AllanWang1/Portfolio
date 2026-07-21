@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import "./Hero.css";
-import profile_img from "../../assets/painting_portrait.png";
+import profile_img from "../../assets/mountain_avatar.webp";
 import linkedin_img from "../../assets/linkedin.svg";
 
 const Hero = () => {
