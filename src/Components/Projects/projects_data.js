@@ -1,12 +1,12 @@
-import platformer_img from "../../assets/2d_platformer.PNG";
-import algorithm_visualizer_img from "../../assets/algorithm_visualizer.PNG";
-import byte_img from "../../assets/Byte_Datathon.png";
-import cube_timer_img from "../../assets/cube_timer.PNG";
-import employee_attrition_img from "../../assets/employee_attrition.PNG";
-import pet_img from "../../assets/pet_adoption.png";
-import sap_img from "../../assets/SAP_Datathon.png";
-import treasure_hunt_img from "../../assets/treasure_hunt.png";
-import ubc_cubing_club_img from "../../assets/UBC_Cubing_Website.PNG";
+import platformer_img from "../../assets/project-previews/2d_platformer.webp";
+import algorithm_visualizer_img from "../../assets/project-previews/algorithm_visualizer.webp";
+import byte_img from "../../assets/project-previews/Byte_Datathon.webp";
+import cube_timer_img from "../../assets/project-previews/cube_timer.webp";
+import employee_attrition_img from "../../assets/project-previews/employee_attrition.webp";
+import pet_img from "../../assets/project-previews/pet_adoption.webp";
+import sap_img from "../../assets/project-previews/SAP_Datathon.webp";
+import treasure_hunt_img from "../../assets/project-previews/treasure_hunt.webp";
+import ubc_cubing_club_img from "../../assets/project-previews/UBC_Cubing_Website.webp";
 
 export const projects_data = [
   {
