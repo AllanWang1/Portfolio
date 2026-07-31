@@ -7,6 +7,7 @@ import pet_img from "../../assets/project-previews/pet_adoption.webp";
 import sap_img from "../../assets/project-previews/SAP_Datathon.webp";
 import treasure_hunt_img from "../../assets/project-previews/treasure_hunt.webp";
 import ubc_cubing_club_img from "../../assets/project-previews/UBC_Cubing_Website.webp";
+import insight_ubc_img from "../../assets/project-previews/insight_UBC.webp";
 
 export const projects_data = [
   {
@@ -15,10 +16,32 @@ export const projects_data = [
     skills:
       "Next.js, React.js, TypeScript, Supabase, Supabase Auth, PostgreSQL, Database Design, HTML, CSS, Git, Project Management, UI/UX, Feedback Implementation",
     description:
-      "Website for the UBC Cubing Club. Past results of members are gathered and organized into leaderboards for viewing. Intuitive website that ensures the cubing experience with the timer and navigation are simple to use. Registered members can use built-in timers to submit times to the database, improving traditional compeititon format by streamlining the result submission process.",
+      "Website for the UBC Cubing Club. Registered members can use built-in timers to submit results to the database, which are summarized into leaderboards; improving traditional compeititon format by streamlining the result submission process.",
     img_: ubc_cubing_club_img,
     link: "https://speedcubingubc.vercel.app/",
     buttonText: "Visit Website",
+  },
+  {
+    id: 1,
+    title: "Algorithm Visualizer",
+    skills:
+      "Swift, SwiftUI, Algorithms, Asynchronous Programming, GUI Development, Git, Documentation",
+    description:
+      "An iOS application that animates how BFS and DFS are executed on mazes designed by the user.",
+    img_: algorithm_visualizer_img,
+    link: "https://github.com/AllanWang1/Algorithm-Visualizer",
+    buttonText: "View Details",
+  },
+  {
+    id: 10,
+    title: "Insight UBC",
+    skills:
+      "TypeScript, Node.js, React.js, Express.js, Automated Testing (Jest, Mocha, Chai), API Design",
+    description:
+      "Web app that allows users to upload UBC course data to view insights on course difficulty, faculty teaching power, etc.",
+    img_: insight_ubc_img,
+    link: "/",
+    buttonText: "",
   },
   {
     id: 8,
@@ -29,17 +52,6 @@ export const projects_data = [
       "A web application that allows users to perform CRUD operations on a pet shelter database enabled with custom APIs.",
     img_: pet_img,
     link: "https://github.com/AllanWang1/Pet-Shelter",
-    buttonText: "View Details",
-  },
-  {
-    id: 1,
-    title: "Algorithm Visualizer",
-    skills:
-      "Swift, SwiftUI, Algorithms, Asynchronous Programming, GUI Development, Git, Documentation",
-    description:
-      "A user-friendly, multi-state iOS application that showcases how BFS and DFS are executed on mazes designed by the user or randomly generated. There is an option of generating the solution cell by cell, and an option of viewing the solution immediately.",
-    img_: algorithm_visualizer_img,
-    link: "https://github.com/AllanWang1/Algorithm-Visualizer",
     buttonText: "View Details",
   },
   {
