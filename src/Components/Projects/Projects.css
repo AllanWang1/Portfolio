@@ -1,10 +1,8 @@
 .projects {
   width: 85%;
   margin: 120px auto;
+  padding-top: 60px;
 }
-
-/* TITLE */
-
 .projects-title {
   text-align: center;
   margin-bottom: 70px;
