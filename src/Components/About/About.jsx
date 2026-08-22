@@ -39,72 +39,71 @@ const About = () => {
         <div className="about-right">
           <div className="about-para">
             <p>
-              Hello! I am Allan, I am a fourth-year Computer Science and
+              I am a fourth-year Computer Science and
               Statistics student at UBC. I am passionate about both fields of
               study and I enjoy applying my knowledge in real-world problems.
             </p>
             <p>
               I enjoy working on projects that are impactful and challenging. I
               have experience in embedded software engineering, web development,
-              infotainment applications, and data analysis.
+              and data analysis.
             </p>
           </div>
-        </div>
-      </div>
+          <div className="leetcode-solves">
+            {problemsSolved && (
+              <div className="leetcode">
+                <h4>LeetCode Solves</h4>
 
-      <div className="about-stats">
-        <div className="leetcode-solves">
-          {problemsSolved && (
-            <div className="leetcode">
-              <h4>LeetCode Solves</h4>
-
-              <div className="leetcode-content">
-                <div
-                  className="leetcode-ring"
-                  style={{
-                    background: `conic-gradient(
+                <div className="leetcode-content">
+                  <div
+                    className="leetcode-ring"
+                    style={{
+                      background: `conic-gradient(
             #38a169 0% ${easyPercent}%,
             #d69e2e ${easyPercent}% ${easyPercent + mediumPercent}%,
             #e53e3e ${easyPercent + mediumPercent}% 100%
           )`,
-                  }}
-                >
-                  <div className="leetcode-ring-inner">
-                    <span className="leetcode-total">{total}</span>
-                    <span className="leetcode-label">Solved</span>
-                  </div>
-                </div>
-
-                <div className="leetcode-legend">
-                  <div className="leetcode-legend-item">
-                    <span className="legend-dot easy-dot"></span>
-                    <div>
-                      <strong>{easy}</strong>
-                      <span>Easy</span>
+                    }}
+                  >
+                    <div className="leetcode-ring-inner">
+                      <span className="leetcode-total">{total}</span>
+                      <span className="leetcode-label">Solved</span>
                     </div>
                   </div>
 
-                  <div className="leetcode-legend-item">
-                    <span className="legend-dot medium-dot"></span>
-                    <div>
-                      <strong>{medium}</strong>
-                      <span>Medium</span>
+                  <div className="leetcode-legend">
+                    <div className="leetcode-legend-item">
+                      <span className="legend-dot easy-dot"></span>
+                      <div>
+                        <strong>{easy}</strong>
+                        <span>Easy</span>
+                      </div>
                     </div>
-                  </div>
 
-                  <div className="leetcode-legend-item">
-                    <span className="legend-dot hard-dot"></span>
-                    <div>
-                      <strong>{hard}</strong>
-                      <span>Hard</span>
+                    <div className="leetcode-legend-item">
+                      <span className="legend-dot medium-dot"></span>
+                      <div>
+                        <strong>{medium}</strong>
+                        <span>Medium</span>
+                      </div>
+                    </div>
+
+                    <div className="leetcode-legend-item">
+                      <span className="legend-dot hard-dot"></span>
+                      <div>
+                        <strong>{hard}</strong>
+                        <span>Hard</span>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
-            </div>
-          )}
+            )}
+          </div>
         </div>
       </div>
+
+      <div className="about-stats"></div>
     </div>
   );
 };
