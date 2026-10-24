@@ -16,13 +16,6 @@ export const podiums = [
     link: "https://www.worldcubeassociation.org/competitions/RichmondSpring2026/results/podiums#e555",
   },
   {
-    medal: "🥈",
-    title: "Please Be Solved UBC 2025 - Organizer & 🥈 3x3x3 blindfolded",
-    img: PleaseBeSolvedUBC2025,
-    event: "3x3x3BLD",
-    link: "https://www.worldcubeassociation.org/competitions/PleaseBeSolvedUBC2025/results/podiums#e333bf",
-  },
-  {
     medal: "🥇",
     title: "What Are the Odds Coquitlam 2025 - 🥇 5x5x5",
     img: WhatAreTheOddsCoquitlam,
@@ -35,6 +28,13 @@ export const podiums = [
     img: SurreyMondayOpen,
     event: "5x5x5",
     link: "https://www.worldcubeassociation.org/competitions/SurreyMondayOpen2025/results/podiums#e555",
+  },
+  {
+    medal: "🥈",
+    title: "Please Be Solved UBC 2025 - Organizer & 🥈 3x3x3 blindfolded",
+    img: PleaseBeSolvedUBC2025,
+    event: "3x3x3BLD",
+    link: "https://www.worldcubeassociation.org/competitions/PleaseBeSolvedUBC2025/results/podiums#e333bf",
   },
   {
     medal: "🥈",

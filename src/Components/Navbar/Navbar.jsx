@@ -31,12 +31,6 @@ const Navbar = () => {
           {menu === "home" ? <img src={underline} alt="" /> : <></>}
         </li>
         <li>
-          <AnchorLink className="anchor-link" offset={50} href="#about">
-            <p onClick={() => setMenu("about")}>About Me</p>
-          </AnchorLink>
-          {menu === "about" ? <img src={underline} alt="" /> : <></>}
-        </li>
-        <li>
           <AnchorLink className="anchor-link" offset={50} href="#experiences">
             <p onClick={() => setMenu("experiences")}>Experiences</p>
           </AnchorLink>
